@@ -1,0 +1,91 @@
+body{
+    font-family:"microsoft yahei";
+    font-size:10pt;
+    padding-top:70px;
+}
+/*起始页*/
+.start{
+    margin:50px auto;
+}
+.start h2{
+    font-size:30pt;
+}
+/*页脚样式*/
+.footer-menu{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.footer-menu li{
+    width:33%;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    float:left;
+}
+.footer-menu li:hover{
+    background-color: #eee;
+}
+
+/*产品列表*/
+.dish_list li:hover{
+    background-color:#eee;
+}
+.dish_price{
+    color:#ff0000;
+    font-size:14pt;
+}
+
+
+
+
+
+/*详情页上的导航面包屑*/
+.container .breadcrumb{
+    margin-top: 20px;
+    margin-bottom:0px;
+}
+
+/*详情页上的产品名称*/
+.panel-body .page-header,.panel-body .page-header h3{
+    margin-top:0px;
+}
+
+/*订单中心*/
+.order-table>tbody>tr>td{
+    vertical-align: middle;
+}
+
+/*定义过场动画*/
+.page {
+    position: absolute;
+    width: 100%;
+}
+.page.ng-enter,
+.page.ng-leave {
+    -webkit-transition: .5s linear all;
+    -moz-transition: .5s linear all;
+    -ms-transition: .5s linear all;
+    -o-transition: .5s linear all;
+    transition: .5s linear all;
+}
+.page.ng-leave {
+    left: 0;
+    opacity: 1;
+}
+.page.ng-leave.ng-leave-active {
+    left: -100%;
+    opacity: 0;
+}
+.page.ng-enter {
+    left: 100%;
+    opacity: 0;
+}
+.page.ng-enter.ng-enter-active {
+    left: 0;
+    opacity: 1;
+}
+body{
+    position: relative;
+    overflow-x: hidden;
+}
