@@ -208,14 +208,14 @@ var tetris={
 			this.landIntoWall();
 			var lines=this.deleteRows();
 			this.lines+=lines;
-			if(this.lines>=10){
+			if(this.lines>=5){
 				clearInterval(this.timer);
 				this.interval=200;
 				this.timer=setInterval(this.moveDown.bind(this),this.interval);
 				this.level=2;
 				level.innerHTML=this.level;
 			};
-			if(this.lines>=20){
+			if(this.lines>=10){
 				clearInterval(this.timer);
 				this.interval=150;
 				this.timer=setInterval(this.moveDown.bind(this),this.interval);

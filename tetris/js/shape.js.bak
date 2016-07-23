@@ -70,7 +70,7 @@ Shape.prototype.rotateL=function(){
 	
 	
 	//var orgCell=this.cells[this.orgi];
-	/var state=this.states[this.statei];
+	//var state=this.states[this.statei];
 	
 	//for(var i=0;i<this.cells.length;i++){
 	//	if(i!=this.orgi){

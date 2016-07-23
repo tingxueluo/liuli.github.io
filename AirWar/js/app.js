@@ -50,65 +50,65 @@ var imgStart=new Image();
 
 downloadResource();
 function downloadResource(){
-	imgBackground.src="img/background.png";
+	imgBackground.src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/background.png";
 	imgBackground.onload=function(){
 		progress+=4;
 		drawProgress();
 	}
-	imgBullet1.src="img/bullet1.png";
+	imgBullet1.src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/bullet1.png";
 	imgBullet1.onload=function(){
 		progress+=3;
 		drawProgress();
 	}
 	//敌1
-	imgsEnemy1[0].src="img/enemy1.png";
+	imgsEnemy1[0].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy1.png";
 	imgsEnemy1[0].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy1[1].src="img/enemy1_down1.png";
+	imgsEnemy1[1].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy1_down1.png";
 	imgsEnemy1[1].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy1[2].src="img/enemy1_down2.png";
+	imgsEnemy1[2].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy1_down2.png";
 	imgsEnemy1[2].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy1[3].src="img/enemy1_down3.png";
+	imgsEnemy1[3].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy1_down3.png";
 	imgsEnemy1[3].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy1[4].src="img/enemy1_down4.png";
+	imgsEnemy1[4].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy1_down4.png";
 	imgsEnemy1[4].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
 
 	//敌2
-	imgsEnemy2[0].src="img/enemy2.png";
+	imgsEnemy2[0].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy2.png";
 	imgsEnemy2[0].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy2[1].src="img/enemy2_down1.png";
+	imgsEnemy2[1].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy2_down1.png";
 	imgsEnemy2[1].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy2[2].src="img/enemy2_down2.png";
+	imgsEnemy2[2].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy2_down2.png";
 	imgsEnemy2[2].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy2[3].src="img/enemy2_down3.png";
+	imgsEnemy2[3].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy2_down3.png";
 	imgsEnemy2[3].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy2[4].src="img/enemy2_down4.png";
+	imgsEnemy2[4].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy2_down4.png";
 	imgsEnemy2[4].onload=function(){
 		progress+=3;
 		drawProgress();
@@ -116,111 +116,111 @@ function downloadResource(){
 
 	//敌三
 
-	imgsEnemy3[0].src="img/enemy3_n1.png";
+	imgsEnemy3[0].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_n1.png";
 	imgsEnemy3[0].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[1].src="img/enemy3_n2.png";
+	imgsEnemy3[1].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_n2.png";
 	imgsEnemy3[1].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[2].src="img/enemy3_hit.png";
+	imgsEnemy3[2].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_hit.png";
 	imgsEnemy3[2].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[3].src="img/enemy3_down1.png";
+	imgsEnemy3[3].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_down1.png";
 	imgsEnemy3[3].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[4].src="img/enemy3_down2.png";
+	imgsEnemy3[4].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_down2.png";
 	imgsEnemy3[4].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[5].src="img/enemy3_down3.png";
+	imgsEnemy3[5].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_down3.png";
 	imgsEnemy3[5].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[6].src="img/enemy3_down4.png";
+	imgsEnemy3[6].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_down4.png";
 	imgsEnemy3[6].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[7].src="img/enemy3_down5.png";
+	imgsEnemy3[7].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_down5.png";
 	imgsEnemy3[7].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsEnemy3[8].src="img/enemy3_down6.png";
+	imgsEnemy3[8].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/enemy3_down6.png";
 	imgsEnemy3[8].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
 	//加载
-	imgsGameLoading[0].src="img/game_loading1.png";
+	imgsGameLoading[0].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/game_loading1.png";
 	imgsGameLoading[0].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsGameLoading[1].src="img/game_loading2.png";
+	imgsGameLoading[1].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/game_loading2.png";
 	imgsGameLoading[1].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsGameLoading[2].src="img/game_loading3.png";
+	imgsGameLoading[2].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/game_loading3.png";
 	imgsGameLoading[2].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsGameLoading[3].src="img/game_loading4.png";
+	imgsGameLoading[3].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/game_loading4.png";
 	imgsGameLoading[3].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
 	//暂停
-	imgGamePause.src="img/game_pause_nor.png";
+	imgGamePause.src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/game_pause_nor.png";
 	imgGamePause.onload=function(){
 		progress+=3;
 		drawProgress();
 	}
 	//英雄
-	imgsHero[0].src="img/hero1.png";
+	imgsHero[0].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/hero1.png";
 	imgsHero[0].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsHero[1].src="img/hero2.png";
+	imgsHero[1].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/hero2.png";
 	imgsHero[1].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsHero[2].src="img/hero_blowup_n1.png";
+	imgsHero[2].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/hero_blowup_n1.png";
 	imgsHero[2].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsHero[3].src="img/hero_blowup_n2.png";
+	imgsHero[3].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/hero_blowup_n2.png";
 	imgsHero[3].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsHero[4].src="img/hero_blowup_n3.png";
+	imgsHero[4].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/hero_blowup_n3.png";
 	imgsHero[4].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
-	imgsHero[5].src="img/hero_blowup_n4.png";
+	imgsHero[5].src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/hero_blowup_n4.png";
 	imgsHero[5].onload=function(){
 		progress+=3;
 		drawProgress();
 	}
 	//开始
-	imgStart.src="img/start.png";
+	imgStart.src="http://oaqxfh6q3.bkt.clouddn.com/AirWar/img/start.png";
 	imgStart.onload=function(){
 		progress+=3;
 		drawProgress();
