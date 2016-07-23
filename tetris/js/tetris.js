@@ -247,9 +247,9 @@ var tetris={
 		if(this.state!=this.RUNNING){
 			var img=new Image();
 			if(this.state==this.GAMEOVER){
-				img.src="http://oaqxfh6q3.bkt.clouddn.com/tetris/img/game-over.png";
+				img.src="https://oarbgtisq.qnssl.com/tetris/img/game-over.png";
 			}else if(this.state==this.PAUSE){
-				img.src="http://oaqxfh6q3.bkt.clouddn.com/tetris/img/pause.png";
+				img.src="https://oarbgtisq.qnssl.com/tetris/img/pause.png";
 			}
 			this.pg.appendChild(img);
 		};

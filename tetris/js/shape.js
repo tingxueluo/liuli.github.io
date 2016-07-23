@@ -19,13 +19,13 @@ function Shape (cells,orgi,states){
 	this.statei=0;
 };
 Shape.prototype.IMGS={
-	T:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/T.png",
-	I:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/I.png",
-	O:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/O.png",
-	S:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/S.png",
-	Z:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/Z.png",
-	L:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/L.png",
-	J:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/J.png",
+	T:"https://oarbgtisq.qnssl.com/tetris/img/T.png",
+	I:"https://oarbgtisq.qnssl.com/tetris/img/I.png",
+	O:"https://oarbgtisq.qnssl.com/tetris/img/O.png",
+	S:"https://oarbgtisq.qnssl.com/tetris/img/S.png",
+	Z:"https://oarbgtisq.qnssl.com/tetris/img/Z.png",
+	L:"https://oarbgtisq.qnssl.com/tetris/img/L.png",
+	J:"https://oarbgtisq.qnssl.com/tetris/img/J.png",
 };
 Shape.prototype.moveDown=function(){
 	for(var i=0;i<this.cells.length;i++ ){
@@ -215,7 +215,7 @@ function Shape(cells,orgi,states){
 }
 //在Shape类型的原型对象中定义一个共有属性IMGS:
 Shape.prototype.IMGS={
-  T:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/T.png", I:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/I.png", O:"http://oaqxfh6q3.bkt.clouddn.com/tetris/img/O.png",};
+  T:"https://oarbgtisq.qnssl.com/tetris/img/T.png", I:"https://oarbgtisq.qnssl.com/tetris/img/I.png", O:"https://oarbgtisq.qnssl.com/tetris/img/O.png",};
 //在Shape类型的原型对象中定义moveDown方法
 Shape.prototype.moveDown=function(){//this->shape
   //遍历当前图形对象中的cells数组中每个cell对象
